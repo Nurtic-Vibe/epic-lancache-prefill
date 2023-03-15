@@ -56,7 +56,7 @@ Configuring your terminal to use Unicode will result in a much nicer experience 
 <img src="docs/img/ConsoleWithUtf8.png" width="730" alt="Initial Prefill">
 
 As the default console in Windows does not support UTF8, you should instead consider installing **Windows Terminal** from the [Microsoft App Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701), or [Chocolatey](https://community.chocolatey.org/packages/microsoft-windows-terminal).
-
+asd
 Once **Windows Terminal** has been installed you will still need to enable Unicode, as it is not enabled by default. Running the following command in Powershell will enable it if it hasn't already been enabled.
 ```powershell
 if(!(Test-Path $profile))
